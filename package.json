@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/alias-rahil/lyrics-finder#readme",
   "dependencies": {
-    "tiny-json-http": "^7.1.2"
+    "tiny-json-http": "^7.1.2",
+    "unidecode": "^1.0.0",
+    "urlencode": "^1.0.0"
   }
 }
