@@ -1,6 +1,6 @@
 const tiny = require("tiny-json-http");
 module.exports = async function(i, t) {
-    let d = "https://www.google.com/search?q={artist}+{title}+lyrics";
+    let d = `https://www.google.com/search?q={artist}+{title}+lyrics`;
     d = (d = await tiny.get({
         url: d
     })).body;
