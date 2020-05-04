@@ -1,16 +1,21 @@
-**Lyrics-Finder**
-This package actually works!
-**Usage**
-**For Node.js**
-Install using:
-npm install lyrics-finder --save
-In your code:
-const lyricsFinder = require('lyrics-finder');
-async function get\_lyrics (artist, title) {
- let lyrics = await lyricsFinder(artist, title);
-console.log(lyrics);
-})
-get\_lyrics("shakira", "chantaje");
+# Lyrics-Finder
 
+A lyrics api which actually works!
+
+# Installing
+
+ ```js
+npm install --save lyrics-finder
+ ```
+
+# Usage
+
+ ```js
+const lyricsFinder = require('lyrics-finder');
+(async function() {
+    let lyrics = await lyricsFinder('shakira', 'chantaje');
+    console.log(lyrics);
+})();
+``` 
 
 
