@@ -1,0 +1,27 @@
+{
+  "name": "lyrics-finder",
+  "version": "1.0.0",
+  "description": "Simple Lyrics Finder That Just Works!",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alias-rahil/lyrics-finder.git"
+  },
+  "scripts": {},
+  "keywords": [
+    "song",
+    "lyrics",
+    "music",
+    "scraper",
+    "google"
+  ],
+  "author": "Rahil Kabani <rahil.kabani.4@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alias-rahil/lyrics-finder/issues"
+  },
+  "homepage": "https://github.com/alias-rahil/lyrics-finder#readme",
+  "dependencies": {
+    "tiny-json-http": "^7.1.2"
+  }
+}
