@@ -1,2 +1,2 @@
 # lyrics-finder
-Simple Lyrics Finder That Just Works!
+A Simple Lyrics Finder That Just Works!
