@@ -14,7 +14,11 @@ npm install --save lyrics-finder
 const lyricsFinder = require('lyrics-finder');
 (async function() {
     let lyrics = await lyricsFinder('shakira', 'chantaje');
-    console.log(lyrics);
+    if (lyrics) {
+        console.log(lyrics);
+    } else {
+        console.log("Not Found!");
+    }
 })();
 ``` 
 
