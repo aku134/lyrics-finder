@@ -1,5 +1,4 @@
 const fetch = require("node-fetch"),
-    colors = require("colors"),
     urlencode = require("urlencode");
 module.exports = async function(e, d) {
     let i = await fetch(`https://www.google.com/search?q=${urlencode(d+" "+e)}+lyrics`);
