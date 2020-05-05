@@ -8,7 +8,11 @@
     "url": "git://github.com/alias-rahil/lyrics-finder.git"
   },
   "scripts": {
-    "lint": "eslint src/bin.js src/index.js --fix"
+    "lint": "eslint src/bin.js src/index.js --fix",
+    "update": "git add . && git commit -m 'update' && git push",
+    "releaseminor": "npm run lint && npm version minor && npm run update && npm publish",
+    "releasepatch": "npm run lint && npm version patch && npm run update && npm publish",
+    "releasemajor": "npm run lint && npm version major && npm run update && npm publish"
   },
   "keywords": [
     "song",
