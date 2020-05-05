@@ -39,7 +39,7 @@ npm install -g lyrics-finder
 ## Usage
  
 ```bash
-lyrics-finder shakira chantaje
+lyrics-finder "dream theatre" "another day"
 ```
 
 # API
