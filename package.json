@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git://github.com/alias-rahil/lyrics-finder.git"
   },
+  "scripts": {
+    "lint": "eslint src/** --fix"
+  },
   "keywords": [
     "song",
     "lyrics",
@@ -26,5 +29,10 @@
   "dependencies": {
     "node-fetch": "^2.6.0",
     "urlencode": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
   }
 }
