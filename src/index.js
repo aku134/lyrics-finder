@@ -2,7 +2,7 @@ const tiny = require("tiny-json-http"),
       urlencode = require("urlencode"),
       unidecode = require("unidecode");
 module.exports = async function(i, t) {
-    let d = `https://www.google.com/search?q=${urlencode(i+ ' ' +t)}+lyrics`;
+    let d = `https://www.google.com/search?q=${urlencode(t+ ' ' +i)}+lyrics`;
     d = (d = await tiny.get({
         url: d
     })).body;

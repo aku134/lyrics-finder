@@ -1,6 +1,6 @@
 {
   "name": "lyrics-finder",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A Simple Lyrics Finder That Just Works!",
   "main": "src/index.js",
   "repository": {
@@ -14,6 +14,9 @@
     "scraper",
     "google"
   ],
+  "bin": {
+    "lyrics-finder": "src/bin.js"
+  },
   "author": "Rahil Kabani <rahil.kabani.4@gmail.com>",
   "license": "MIT",
   "bugs": {
