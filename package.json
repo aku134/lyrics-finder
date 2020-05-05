@@ -1,6 +1,6 @@
 {
   "name": "lyrics-finder",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A Simple Lyrics Finder That Just Works!",
   "main": "src/index.js",
   "repository": {
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/alias-rahil/lyrics-finder#readme",
   "dependencies": {
     "tiny-json-http": "^7.1.2",
-    "unidecode": "^0.1.8",
+    "unidecode-plus": "^1.0.2",
     "urlencode": "^1.1.0"
   }
 }
