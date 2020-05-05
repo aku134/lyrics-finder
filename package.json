@@ -8,7 +8,7 @@
     "url": "git://github.com/alias-rahil/lyrics-finder.git"
   },
   "scripts": {
-    "lint": "eslint src/** --fix"
+    "lint": "eslint src/bin.js src/index.js --fix"
   },
   "keywords": [
     "song",
