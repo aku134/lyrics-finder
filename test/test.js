@@ -1,6 +1,4 @@
-const {
-  expect,
-} = require('chai');
+const { expect } = require('chai');
 const shelljs = require('shelljs');
 const fs = require('fs');
 const lyricsFinder = require('../src/index.js');
