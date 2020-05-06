@@ -48,7 +48,7 @@ lyrics-finder "dream theatre" "another day"
 
 # API
 
-It takes two arguments, artist name and song name and returns the lyrics as a string if found, else it will return an empty string (if used in code). The CLI binary logs the lyrics on your console if found, else it will log 'Not Found!'.
+It takes two arguments, artist name and song name and returns the lyrics as a string if found, else it will return an empty string (if used in code). The CLI binary logs the lyrics on your console (stdout) if found, else it will log 'Not Found!'.
 
 # License
 
