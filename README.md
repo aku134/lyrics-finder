@@ -14,7 +14,7 @@ npm install --save lyrics-finder
 
 ## Usage
 
-```js
+```javascript
 const lyricsFinder = require('lyrics-finder');
 (async function(artist, title) {
     let lyrics = await lyricsFinder(artist, title) || "Not Found!";
