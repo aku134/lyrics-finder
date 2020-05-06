@@ -1,6 +1,6 @@
 {
   "name": "lyrics-finder",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "A Simple Lyrics Finder That Just Works!",
   "main": "src/index.js",
   "repository": {
