@@ -1,6 +1,6 @@
 {
   "name": "lyrics-finder",
-  "version": "2.0.1",
+  "version": "2.0.0",
   "description": "A Simple Lyrics Finder That Just Works!",
   "main": "src/index.js",
   "repository": {
@@ -11,7 +11,7 @@
     "lint": "eslint src/bin.js src/index.js test/test.js --fix",
     "test": "mocha",
     "update": "git add . && git commit -m 'update'",
-    "release": "npm version patch",
+    "release": "npm version major",
     "push": "git push",
     "final": "npm run lint && npm run test && npm run update && npm run release && npm run push && npm publish"
   },
