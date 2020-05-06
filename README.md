@@ -35,7 +35,7 @@ npx lyrics-finder "dream theatre" "another day"
 ## Installation
 
 ```bash
-npm install -g lyrics-finder
+npm install lyrics-finder -g
 ```
 
 > Note: **DO NOT** use sudo to install global packages! The correct way to do it is to tell npm where to install it's global packages: `npm config set prefix ~/.local`. Make sure `~/.local/bin` is added to `PATH`.
