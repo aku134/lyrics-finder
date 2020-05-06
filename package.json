@@ -11,9 +11,9 @@
     "lint": "eslint src/bin.js src/index.js test/test.js --fix",
     "test": "mocha",
     "update": "git add . && git commit -m 'update'",
-    "release": "npm version major",
+    "final": "npm version major",
     "push": "git push",
-    "final": "npm run lint && npm run test && npm run update && npm run release && npm run push && npm publish"
+    "release": "npm run lint && npm run test && npm run update && npm run final && npm run push && npm publish"
   },
   "keywords": [
     "song",
