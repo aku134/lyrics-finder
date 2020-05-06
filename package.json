@@ -12,7 +12,7 @@
     "test": "mocha",
     "update": "git add . && git commit -m 'update' && git push",
     "release": "npm version patch",
-    "final": "npm run lint && npm run test && npm run update && npm run release && npm run update && npm publish"
+    "final": "npm run lint && npm run test && npm run update && npm run release && npm publish && npm run update"
   },
   "keywords": [
     "song",
