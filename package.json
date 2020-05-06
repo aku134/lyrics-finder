@@ -13,18 +13,14 @@
   "keywords": [
     "song",
     "lyrics",
-    "music",
-    "scraper",
+    "rapidapi",
+    "azlyrics",
+    "findlyrics",
     "google",
     "genius",
-    "lyric",
-    "scrape",
-    "spotify",
-    "lyrics-api",
     "musixmatch",
-    "azlyrics",
-    "lyricslive",
-    "lyrics-fetcher"
+    "scrape",
+    "api"
   ],
   "bin": {
     "lyrics-finder": "src/bin.js"
