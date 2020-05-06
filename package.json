@@ -20,7 +20,16 @@
     "lyrics",
     "music",
     "scraper",
-    "google"
+    "google",
+    "genius",
+    "lyric",
+    "scrape",
+    "spotify",
+    "lyrics-api",
+    "musixmatch",
+    "azlyrics",
+    "lyricslive",
+    "lyrics-fetcher"
   ],
   "bin": {
     "lyrics-finder": "src/bin.js"
