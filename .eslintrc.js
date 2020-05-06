@@ -3,6 +3,7 @@ module.exports = {
     node: true,
     commonjs: true,
     es6: true,
+    mocha: true,
   },
   extends: [
     'airbnb-base',
@@ -16,5 +17,6 @@ module.exports = {
   },
   rules: {
     "no-console": 0,
+    "no-unused-expressions": 0,
   },
 };
