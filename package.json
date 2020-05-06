@@ -9,13 +9,10 @@
   },
   "scripts": {
     "lint": "eslint src/bin.js src/index.js test/test.js --fix",
+    "test": "mocha",
     "update": "git add . && git commit -m 'update' && git push",
-    "build": "npm run test && npm run lint",
-    "final": "npm run update && npm publish",
-    "releaseminor": "npm run build && npm run update && npm version minor && npm run final",
-    "releasepatch": "npm run build && npm run update && npm version patch && npm run final",
-    "releasemajor": "npm run build && npm run update && npm version major && npm run final",
-    "test": "mocha"
+    "release": "npm version patch",
+    "final": "npm run lint && npm run test && npm run update && npm run release && npm run update && npm publish"
   },
   "keywords": [
     "song",
