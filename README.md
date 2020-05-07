@@ -58,15 +58,15 @@ lyrics-finder "dream theatre" "another day"
 
 It takes two arguments, artist name and song name and returns the lyrics as a string if found, else it will return an empty string (if used in code). The CLI binary logs the lyrics on your console (stdout) if found, else it will log 'Not Found!'.
 
-## Author
+# Author
 
-👤 **Rahil Kabani <rahil.kabani.4@gmail.com>**
+## 👤 **Rahil Kabani <rahil.kabani.4@gmail.com>**
 
-## Show your support
+# Show your support
 
 Give a ⭐️ if this project helped you!
 
-## 🤝 Contributing
+# 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/alias-rahil/lyrics-finder/issues).
 
