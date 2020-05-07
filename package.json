@@ -10,9 +10,6 @@
   "scripts": {
     "release": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version major && git push && npm publish"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "keywords": [
     "song",
     "lyrics",
