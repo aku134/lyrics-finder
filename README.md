@@ -1,8 +1,16 @@
-# Lyrics-Finder
+<h1 align="center">Welcome to lyrics-finder 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/lyrics-finder" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/lyrics-finder.svg">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+</p>
 
-A lyrics api which actually works!
+> A lyrics api which actually works!
 
-It scrapes the lyrics from google.
+> It scrapes the lyrics from google.
 
 # In your code:
 
@@ -50,6 +58,22 @@ lyrics-finder "dream theatre" "another day"
 
 It takes two arguments, artist name and song name and returns the lyrics as a string if found, else it will return an empty string (if used in code). The CLI binary logs the lyrics on your console (stdout) if found, else it will log 'Not Found!'.
 
+## Author
+
+👤 **Rahil Kabani <rahil.kabani.4@gmail.com>**
+
+# 🏠 [Homepage](https://github.com/alias-rahil/lyrics-finder#readme)
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/alias-rahil/lyrics-finder/issues).
+
 # License
 
 [MIT](./LICENSE)
+
+# Lyrics-Finder
