@@ -76,4 +76,4 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 # License
 
-[MIT](./LICENSE)
+[MIT](https://github.com/alias-rahil/lyrics-finder/blob/master/LICENSE)
