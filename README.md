@@ -62,8 +62,6 @@ It takes two arguments, artist name and song name and returns the lyrics as a st
 
 👤 **Rahil Kabani <rahil.kabani.4@gmail.com>**
 
-# 🏠 [Homepage](https://github.com/alias-rahil/lyrics-finder#readme)
-
 ## Show your support
 
 Give a ⭐️ if this project helped you!
@@ -77,3 +75,5 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 [MIT](./LICENSE)
 
 # Lyrics-Finder
+
+## 🏠 [Homepage](https://github.com/alias-rahil/lyrics-finder#readme)
