@@ -70,10 +70,10 @@ Give a ⭐️ if this project helped you!
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/alias-rahil/lyrics-finder/issues).
 
-# License
-
-[MIT](./LICENSE)
-
 # Lyrics-Finder
 
 🏠 [Homepage](https://github.com/alias-rahil/lyrics-finder#readme)
+
+# License
+
+[MIT](./LICENSE)
