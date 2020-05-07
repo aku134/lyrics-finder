@@ -3,7 +3,7 @@
   <a href="https://www.npmjs.com/package/lyrics-finder" target="_blank">
     <img alt="Version" src="https://img.shields.io/npm/v/lyrics-finder.svg">
   </a>
-  <a href="#" target="_blank">
+  <a href="https://github.com/alias-rahil/lyrics-finder/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
 </p>
