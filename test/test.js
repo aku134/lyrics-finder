@@ -1,4 +1,6 @@
-const { expect } = require('chai');
+const {
+  expect,
+} = require('chai');
 const shelljs = require('shelljs');
 const fs = require('fs');
 const lyricsFinder = require('../src/index.js');
@@ -19,12 +21,6 @@ describe('console.log()', () => {
 describe('lyricsFinder()', () => {
   it('for "shakira", "chantaje" should be of length greater than zero', async () => {
     expect((await lyricsFinder('shakira', 'chantaje')).length > 0).to.be.true;
-  });
-  it('for "dream theatre", "another day" should return a value of type string', async () => {
-    expect(typeof (await lyricsFinder('dream theatre', 'another day')) === 'string').to.be.true;
-  });
-  it('for "shakira", "chantaje" should return a value of type string', async () => {
-    expect(typeof (await lyricsFinder('shakira', 'chantaje')) === 'string').to.be.true;
   });
   it('for "dream theatre", "another day" should be of length greater than zero', async () => {
     expect((await lyricsFinder('dream theatre', 'another day')).length > 0).to.be.true;
