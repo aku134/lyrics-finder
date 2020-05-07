@@ -7,9 +7,6 @@
     "type": "git",
     "url": "git://github.com/alias-rahil/lyrics-finder.git"
   },
-  "scripts": {
-    "release": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version major && git push && npm publish"
-  },
   "keywords": [
     "song",
     "lyrics",
@@ -34,6 +31,9 @@
   "dependencies": {
     "node-fetch": "^2.6.0",
     "urlencode": "^1.1.0"
+  },
+  "scripts": {
+    "release": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version major && git push && npm publish"
   },
   "devDependencies": {
     "chai": "^4.2.0",
