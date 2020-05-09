@@ -1,26 +1,11 @@
 {
   "name": "lyrics-finder",
-  "version": "19.0.5",
+  "version": "19.0.9",
   "description": "A Simple Lyrics Finder That Just Works!",
   "main": "src/index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/alias-rahil/lyrics-finder.git"
-  },
-  "keywords": [
-    "song",
-    "lyrics",
-    "rapidapi",
-    "azlyrics",
-    "findlyrics",
-    "google",
-    "genius",
-    "musixmatch",
-    "scrape",
-    "api"
-  ],
-  "bin": {
-    "lyrics-finder": "src/bin.js"
   },
   "author": "Rahil Kabani <rahil.kabani.4@gmail.com>",
   "license": "MIT",
@@ -37,6 +22,21 @@
     "releaseminor": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version minor && git push && npm publish",
     "releasemajor": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version major && git push && npm publish"
   },
+  "bin": {
+    "lyrics-finder": "src/bin.js"
+  },
+  "keywords": [
+    "song",
+    "lyrics",
+    "rapidapi",
+    "azlyrics",
+    "findlyrics",
+    "google",
+    "genius",
+    "musixmatch",
+    "scrape",
+    "api"
+  ],
   "devDependencies": {
     "chai": "^4.2.0",
     "eslint": "^6.8.0",
