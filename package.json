@@ -18,9 +18,6 @@
     "releaseminor": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version minor && git push && npm publish",
     "releasemajor": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version major && git push && npm publish"
   },
-  "bin": {
-    "lyrics-finder": "src/bin.js"
-  },
   "keywords": [
     "song",
     "lyrics",
@@ -33,6 +30,9 @@
     "scrape",
     "api"
   ],
+  "bin": {
+    "lyrics-finder": "src/bin.js"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/alias-rahil/lyrics-finder.git"
