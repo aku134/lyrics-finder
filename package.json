@@ -1,7 +1,7 @@
 {
   "name": "lyrics-finder",
   "author": "Rahil Kabani <rahil.kabani.4@gmail.com>",
-  "version": "19.0.15",
+  "version": "19.0.16",
   "description": "A Simple Lyrics Finder That Just Works!",
   "main": "src/index.js",
   "license": "MIT",
