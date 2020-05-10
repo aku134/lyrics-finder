@@ -10,7 +10,7 @@
 
 > A lyrics api which actually works!
 
-> It scrapes the lyrics from Google.
+> It scrapes the lyrics from [Google](https://www.google.com/).
 
 # In your code:
 
