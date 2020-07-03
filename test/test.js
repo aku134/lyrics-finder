@@ -11,6 +11,7 @@ describe('lyricsFinder()', function () {
     expect((await lyricsFinder('shakira', 'chantaje')).length > 0).to.be.true;
   });
 });
+
 describe('console.log()', function () {
   this.timeout(0);
   it('for "dream theatre", "another day" should not be equal to "Not Found!"', () => {
