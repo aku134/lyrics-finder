@@ -10,7 +10,7 @@
 
 > A lyrics api which actually works!
 
-> It scrapes the lyrics from [Google](https://www.google.com/).
+> It scrapes the lyrics from [Google](https://www.google.com/) so no seperate API key is needed.
 
 # In your code:
 
@@ -27,7 +27,7 @@ const lyricsFinder = require('lyrics-finder');
 (async function(artist, title) {
     let lyrics = await lyricsFinder(artist, title) || "Not Found!";
     console.log(lyrics);
-})("shakira", "chantaje");
+})("poets of fall", "carnival of rust");
 ```
 
 # Command line usage:
@@ -51,12 +51,12 @@ npm install lyrics-finder -g
 ## Usage after installation
  
 ```bash
-lyrics-finder "dream theatre" "another day"
+lyrics-finder "prateek kuhad" "cold mess"
 ```
 
 # API
 
-It takes two arguments, artist name and song name and returns the lyrics as a string if found, else it will returns a null value (if used in code). The CLI binary logs the lyrics on your console (stdout) if found, else it will log 'Not Found!'.
+It takes two arguments, artist name and song name and returns the lyrics as a string if found, else it will return an empty string (if used in code). The CLI binary logs the lyrics on your console (stdout) if found, else it will log 'Not Found!'.
 
 # Author
 

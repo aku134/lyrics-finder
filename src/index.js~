@@ -36,6 +36,6 @@ async function main(e, d) {
     }
   }
 
-  return unidecode(htmlToText.fromString(i));
+  return unidecode(htmlToText(i));
 }
 module.exports = main;
