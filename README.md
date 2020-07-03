@@ -35,7 +35,7 @@ const lyricsFinder = require('lyrics-finder');
 ## Using without installation
 
 ```bash
-npx lyrics-finder "dream theatre" "another day"
+npx lyrics-finder "a r rahman" "kun faya kun"
 ```
 
 > Note: Use this method only if you plan to use lyrics-finder for one time, installing lyrics-finder globally (see-below) is recommended for multiple time usages.
