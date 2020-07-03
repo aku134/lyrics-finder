@@ -1,2 +1,4 @@
 .eslintrc.js
 test/
+src/output.txt
+*.log

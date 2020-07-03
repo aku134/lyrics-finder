@@ -1,5 +1,6 @@
 const fetch = require('node-fetch');
 const urlencode = require('urlencode');
+const unidecode = require('unidecode');
 
 async function main(e, d) {
   let i;
@@ -34,6 +35,6 @@ async function main(e, d) {
     }
   }
 
-  return i;
+  return unidecode(i);
 }
 module.exports = main;
