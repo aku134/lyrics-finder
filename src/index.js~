@@ -36,7 +36,7 @@ async function main(e, d) {
   }
   const ret = i.split('\n');
   let final = '';
-  for (let j = 0; j < ret.length; j += 1) {
+  for (let j = 0; j < ret.length; j++) {
     final = `${final}\n${unidecode(htmlToText.fromString(ret[j]))}`;
   }
   return final.trim();
