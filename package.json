@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/alias-rahil/lyrics-finder.git"
+    "url": "https://github.com/alias-rahil/lyrics-finder.git/"
   },
   "homepage": "https://github.com/alias-rahil/lyrics-finder#readme",
   "dependencies": {
