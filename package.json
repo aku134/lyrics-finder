@@ -16,7 +16,7 @@
   "dependencies": {
     "html-to-text": "^5.1.1",
     "node-fetch": "^2.6.0",
-    "unidecode": "^0.1.8",
+    "encoding": "^0.1.13",
     "urlencode": "^1.1.0"
   },
   "scripts": {
