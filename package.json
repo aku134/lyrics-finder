@@ -20,9 +20,9 @@
     "urlencode": "^1.1.0"
   },
   "scripts": {
-    "releasepatch": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version patch && git push && npm publish",
-    "releaseminor": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version minor && git push && npm publish",
-    "releasemajor": "npm i && eslint src/bin.js src/index.js test/test.js --fix && mocha && git add . && git commit -m 'update' && npm version major && git push && npm publish"
+    "releasepatch": "npm i && git add . && git commit -m 'update' && npm version patch && git push && npm publish",
+    "releaseminor": "npm i && git add . && git commit -m 'update' && npm version minor && git push && npm publish",
+    "releasemajor": "npm i && git add . && git commit -m 'update' && npm version major && git push && npm publish"
   },
   "keywords": [
     "song",
@@ -38,13 +38,5 @@
   ],
   "bin": {
     "lyrics-finder": "src/bin.js"
-  },
-  "devDependencies": {
-    "chai": "^4.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^14.1.0",
-    "eslint-plugin-import": "^2.20.2",
-    "mocha": "^7.1.2",
-    "shelljs": "^0.8.4"
   }
 }
