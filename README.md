@@ -54,6 +54,12 @@ npm install lyrics-finder -g
 lyrics-finder "prateek kuhad" "cold mess"
 ```
 
+# Screenshot
+
+<p align="center">
+  <img align="center" src="./screenshots/humpty-dumpty.jpeg?raw=true" alt="humpty-dumpty.jpeg" width="250">
+</p>
+
 # API
 
 It takes two arguments, artist name and song name and returns the lyrics as a string if found, else it will return an empty string (if used in code). The CLI binary logs the lyrics on your console (stdout) if found, else it will log 'Not Found!'.
