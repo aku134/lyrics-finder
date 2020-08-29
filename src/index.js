@@ -5,7 +5,7 @@ const delim1 = '</div></div></div></div><div class="hwc"><div class="BNeawe tAd8
 const delim2 = '</div></div></div></div></div><div><span class="hwc"><div class="BNeawe uEec3 AP7Wnd">';
 const url = "https://www.google.com/search?q=";
 
-async function main(e, d) {
+async function main(e="", d="") {
     let i;
     try {
         i = await fetch(`${url}${encodeURIComponent(d + " " + e)}+lyrics`);
